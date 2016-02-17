@@ -1,0 +1,14 @@
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\BikeMates.Service.dll.config
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\BikeMates.Service.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\BikeMates.Service.pdb
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\Newtonsoft.Json.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Net.Http.Formatting.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Web.Http.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Web.Http.WebHost.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\Newtonsoft.Json.xml
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Net.Http.Formatting.xml
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Web.Http.xml
+F:\Github\bike-mates\BikeMates\BikeMates.Service\bin\System.Web.Http.WebHost.xml
+F:\Github\bike-mates\BikeMates\BikeMates.Service\obj\Debug\BikeMates.Service.csprojResolveAssemblyReference.cache
+F:\Github\bike-mates\BikeMates\BikeMates.Service\obj\Debug\BikeMates.Service.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Service\obj\Debug\BikeMates.Service.pdb

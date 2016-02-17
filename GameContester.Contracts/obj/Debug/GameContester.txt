@@ -1,0 +1,4 @@
+F:\Github\bike-mates\BikeMates\BikeMates.Contracts\bin\Debug\BikeMates.Contracts.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Contracts\bin\Debug\BikeMates.Contracts.pdb
+F:\Github\bike-mates\BikeMates\BikeMates.Contracts\obj\Debug\BikeMates.Contracts.dll
+F:\Github\bike-mates\BikeMates\BikeMates.Contracts\obj\Debug\BikeMates.Contracts.pdb

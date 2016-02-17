@@ -1,0 +1,4 @@
+F:\GameContester\BikeMates\BikeMates.Contracts\bin\Debug\BikeMates.Contracts.dll
+F:\GameContester\BikeMates\BikeMates.Contracts\bin\Debug\BikeMates.Contracts.pdb
+F:\GameContester\BikeMates\BikeMates.Contracts\obj\Debug\BikeMates.Contracts.dll
+F:\GameContester\BikeMates\BikeMates.Contracts\obj\Debug\BikeMates.Contracts.pdb

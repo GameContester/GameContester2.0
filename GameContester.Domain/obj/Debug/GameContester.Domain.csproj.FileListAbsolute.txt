@@ -1,0 +1,4 @@
+F:\GameContester\BikeMates\BikeMates.Domain\bin\Debug\BikeMates.Domain.dll
+F:\GameContester\BikeMates\BikeMates.Domain\bin\Debug\BikeMates.Domain.pdb
+F:\GameContester\BikeMates\BikeMates.Domain\obj\Debug\BikeMates.Domain.dll
+F:\GameContester\BikeMates\BikeMates.Domain\obj\Debug\BikeMates.Domain.pdb

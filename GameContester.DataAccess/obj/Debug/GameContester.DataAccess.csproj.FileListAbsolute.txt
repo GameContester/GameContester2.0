@@ -1,0 +1,4 @@
+F:\GameContester\BikeMates\BikeMates.DataAccess\bin\Debug\BikeMates.DataAccess.dll
+F:\GameContester\BikeMates\BikeMates.DataAccess\bin\Debug\BikeMates.DataAccess.pdb
+F:\GameContester\BikeMates\BikeMates.DataAccess\obj\Debug\BikeMates.DataAccess.dll
+F:\GameContester\BikeMates\BikeMates.DataAccess\obj\Debug\BikeMates.DataAccess.pdb

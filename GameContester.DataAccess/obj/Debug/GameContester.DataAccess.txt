@@ -1,0 +1,4 @@
+F:\Github\bike-mates\BikeMates\BikeMates.DataAccess\bin\Debug\BikeMates.DataAccess.dll
+F:\Github\bike-mates\BikeMates\BikeMates.DataAccess\bin\Debug\BikeMates.DataAccess.pdb
+F:\Github\bike-mates\BikeMates\BikeMates.DataAccess\obj\Debug\BikeMates.DataAccess.dll
+F:\Github\bike-mates\BikeMates\BikeMates.DataAccess\obj\Debug\BikeMates.DataAccess.pdb

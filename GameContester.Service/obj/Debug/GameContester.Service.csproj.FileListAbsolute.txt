@@ -1,0 +1,14 @@
+F:\GameContester\BikeMates\BikeMates.Service\bin\BikeMates.Service.dll.config
+F:\GameContester\BikeMates\BikeMates.Service\bin\BikeMates.Service.dll
+F:\GameContester\BikeMates\BikeMates.Service\bin\BikeMates.Service.pdb
+F:\GameContester\BikeMates\BikeMates.Service\bin\Newtonsoft.Json.dll
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Net.Http.Formatting.dll
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Web.Http.dll
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Web.Http.WebHost.dll
+F:\GameContester\BikeMates\BikeMates.Service\bin\Newtonsoft.Json.xml
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Net.Http.Formatting.xml
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Web.Http.xml
+F:\GameContester\BikeMates\BikeMates.Service\bin\System.Web.Http.WebHost.xml
+F:\GameContester\BikeMates\BikeMates.Service\obj\Debug\GameContester.Service.csprojResolveAssemblyReference.cache
+F:\GameContester\BikeMates\BikeMates.Service\obj\Debug\BikeMates.Service.dll
+F:\GameContester\BikeMates\BikeMates.Service\obj\Debug\BikeMates.Service.pdb
