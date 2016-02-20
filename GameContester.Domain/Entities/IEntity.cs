@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameContester.DataAccess
+namespace GameContester.Domain.Entities
 {
-    public class Class1
+    interface IEntity<TKEy>
     {
+        TKEy Id { get; set; }
     }
 }
