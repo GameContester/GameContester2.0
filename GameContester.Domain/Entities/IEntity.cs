@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameContester.Domain.Entities
 {
-    interface IEntity<TKEy>
+    public interface IEntity<TKEy>
     {
         TKEy Id { get; set; }
     }

@@ -42,6 +42,10 @@
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
       <Private>True</Private>
@@ -81,18 +85,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameContesterDBContext.cs" />
+    <Compile Include="Managers\UserManager.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\UserRepositiry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Managers\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repository\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\GameContester.Contracts\GameContester.Contracts.csproj">
+      <Project>{4eb44564-f9f1-47bf-a30e-ec3b57b820cb}</Project>
+      <Name>GameContester.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GameContester.Domain\GameContester.Domain.csproj">
       <Project>{517147ec-1559-4488-9c73-7fc31fdc4c26}</Project>
       <Name>GameContester.Domain</Name>
