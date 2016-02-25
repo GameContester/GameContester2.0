@@ -66,9 +66,9 @@ namespace GameContester.DataAccess.Migrations
             {
                 FirstName = "John-" + index,
                 SecondName = "Doe-" + index,
-                Email = "Username-" + index + "@bikemates.com",
+                Email = "Username-" + index + "@game.com",
                 EmailConfirmed = true,
-                UserName = "Username-" + index + "@bikemates.com",
+                UserName = "Username-" + index + "@game.com",
                 About =
                     @"I'm just a test user. My whole life story:\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
                 PasswordHash = "AEPu4Rln+Qak4i79daRuRlcAe70OQ+uvYDJreFYyoudb0iWaorIkAV/crymPqTpV6w==", //1234qwerQ_

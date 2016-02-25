@@ -7,6 +7,7 @@ F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContest
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.DataAccess.pdb
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\EntityFramework.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Contracts.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Domain.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
@@ -17,6 +18,7 @@ F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Microsoft.O
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Microsoft.Owin.Security.OAuth.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Newtonsoft.Json.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\Owin.dll
+F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Contracts.pdb
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Domain.pdb
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\EntityFramework.xml
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
@@ -36,7 +38,5 @@ F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsof
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.pdb
-F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Contracts.dll
-F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\GameContester.Contracts.pdb
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.Migrations.Initial.resources
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.csproj.GenerateResource.Cache
