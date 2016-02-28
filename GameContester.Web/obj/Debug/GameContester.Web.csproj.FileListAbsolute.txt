@@ -181,3 +181,9 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\Microsoft.Owin.Securi
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.dll
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.pdb
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.pdb
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.pdb
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.pdb
