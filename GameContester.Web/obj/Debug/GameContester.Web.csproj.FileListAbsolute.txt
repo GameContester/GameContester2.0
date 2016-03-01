@@ -99,6 +99,8 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Web.pdb
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Antlr3.Runtime.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\EntityFramework.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\EntityFramework.SqlServer.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.Agent.Intercept.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.DependencyCollector.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -130,6 +132,9 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\System.Web.WebPages.Depl
 F:\GameContester\GameContester2.0\GameContester.Web\bin\System.Web.WebPages.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\System.Web.WebPages.Razor.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\WebGrease.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.pdb
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.pdb
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.DependencyCollector.xml
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.AI.Web.xml
@@ -159,6 +164,7 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.Owin.Security.
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.Owin.Security.Google.xml
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.Owin.Security.Twitter.xml
 F:\GameContester\GameContester2.0\GameContester.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.pdb
 F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\System.Web.Helpers.resources.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\System.Web.Mvc.resources.dll
 F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\System.Web.Optimization.resources.dll
@@ -181,9 +187,3 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\Microsoft.Owin.Securi
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.dll
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.pdb
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.dll
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.dll
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.dll
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.DataAccess.pdb
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Domain.pdb
-F:\GameContester\GameContester2.0\GameContester.Web\bin\GameContester.Contracts.pdb

@@ -36,7 +36,7 @@ F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsof
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsoft.AspNet.Identity.Owin.resources.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.csprojResolveAssemblyReference.cache
-F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.dll
-F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.pdb
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.Migrations.Initial.resources
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.csproj.GenerateResource.Cache
+F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.dll
+F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.pdb

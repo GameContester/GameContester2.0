@@ -31,5 +31,6 @@ F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\EntityF
 F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microsoft.AspNet.Identity.Core.resources.dll
 F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.dll
 F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.pdb
