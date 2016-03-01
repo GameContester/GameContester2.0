@@ -4,7 +4,7 @@ using Microsoft.AspNet.Identity;
 
 namespace GameContester.Contracts.Services
 {
-    interface IUserService
+  public interface IUserService
     {
         IdentityResult Register(User user, string password);
         IEnumerable<string> ChangePassword(string oldPassword, string newPassword, string newPasswordConfirmation, string userId);

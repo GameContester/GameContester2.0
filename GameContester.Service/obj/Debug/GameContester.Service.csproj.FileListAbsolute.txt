@@ -50,3 +50,13 @@ F:\GameContester\GameContester2.0\GameContester.Service\bin\ru\Microsoft.AspNet.
 F:\GameContester\GameContester2.0\GameContester.Service\obj\Debug\GameContester.Service.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Service\obj\Debug\GameContester.Service.dll
 F:\GameContester\GameContester2.0\GameContester.Service\obj\Debug\GameContester.Service.pdb
+F:\GameContester\GameContester2.0\GameContester.Service\bin\AutoMapper.dll
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Application.dll
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Contracts.dll
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.DataAccess.dll
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Domain.dll
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Application.pdb
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Contracts.pdb
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.DataAccess.pdb
+F:\GameContester\GameContester2.0\GameContester.Service\bin\GameContester.Domain.pdb
+F:\GameContester\GameContester2.0\GameContester.Service\bin\AutoMapper.xml

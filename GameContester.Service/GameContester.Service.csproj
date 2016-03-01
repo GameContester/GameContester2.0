@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -118,9 +121,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AuthModel.cs" />
+    <Compile Include="Models\CaptchaModel.cs" />
+    <Compile Include="Models\EditProfileViewModel.cs" />
+    <Compile Include="Models\ForgotPasswordModel.cs" />
+    <Compile Include="Models\LoginResponseModel.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\ProfileViewModel.cs" />
+    <Compile Include="Models\RegisterViewModel.cs" />
+    <Compile Include="Models\ResetPasswordViewModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +149,27 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameContester.Application\GameContester.Application.csproj">
+      <Project>{ce334495-a9e4-46b2-b689-7fa0b44252b2}</Project>
+      <Name>GameContester.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameContester.Contracts\GameContester.Contracts.csproj">
+      <Project>{4eb44564-f9f1-47bf-a30e-ec3b57b820cb}</Project>
+      <Name>GameContester.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameContester.DataAccess\GameContester.DataAccess.csproj">
+      <Project>{c286cef0-4df6-4215-86e5-69825f2aaa27}</Project>
+      <Name>GameContester.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameContester.Domain\GameContester.Domain.csproj">
+      <Project>{517147ec-1559-4488-9c73-7fc31fdc4c26}</Project>
+      <Name>GameContester.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
