@@ -1,11 +1,24 @@
 ﻿<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>GameContester</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
 
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#register" id="registerLink">Sing up</a></li>
+                    <li><a href="#login" id="loginLink">Sing in</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="App/boot/require.config.js"></script>
+    <script data-main="App/boot/startup" src="Scripts/require/require.js"></script>
 </body>
 </html>

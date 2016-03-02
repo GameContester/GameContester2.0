@@ -40,3 +40,5 @@ F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContest
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.csproj.GenerateResource.Cache
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.dll
 F:\GameContester\GameContester2.0\GameContester.DataAccess\obj\Debug\GameContester.DataAccess.pdb
+F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsoft.Owin.resources.dll
+F:\GameContester\GameContester2.0\GameContester.DataAccess\bin\Debug\ru\Microsoft.Owin.Security.resources.dll

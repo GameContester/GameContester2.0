@@ -187,3 +187,5 @@ F:\GameContester\GameContester2.0\GameContester.Web\bin\ru\Microsoft.Owin.Securi
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.dll
 F:\GameContester\GameContester2.0\GameContester.Web\obj\Debug\GameContester.Web.pdb
+F:\GameContester\GameContester2.0\GameContester.Web\bin\RazorGenerator.Mvc.dll
+F:\GameContester\GameContester2.0\GameContester.Web\bin\WebActivatorEx.dll

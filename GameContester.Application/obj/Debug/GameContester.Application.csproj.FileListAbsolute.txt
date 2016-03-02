@@ -34,3 +34,9 @@ F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microso
 F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.dll
 F:\GameContester\GameContester2.0\GameContester.Application\obj\Debug\GameContester.Application.pdb
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\GameContester.Contracts.dll
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\GameContester.Domain.dll
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\GameContester.Contracts.pdb
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\GameContester.Domain.pdb
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microsoft.Owin.resources.dll
+F:\GameContester\GameContester2.0\GameContester.Application\bin\Debug\ru\Microsoft.Owin.Security.resources.dll

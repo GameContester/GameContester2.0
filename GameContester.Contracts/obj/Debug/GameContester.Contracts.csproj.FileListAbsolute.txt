@@ -36,3 +36,5 @@ F:\GameContester\GameContester2.0\GameContester.Contracts\bin\Debug\ru\Microsoft
 F:\GameContester\GameContester2.0\GameContester.Contracts\obj\Debug\GameContester.Contracts.csprojResolveAssemblyReference.cache
 F:\GameContester\GameContester2.0\GameContester.Contracts\obj\Debug\GameContester.Contracts.dll
 F:\GameContester\GameContester2.0\GameContester.Contracts\obj\Debug\GameContester.Contracts.pdb
+F:\GameContester\GameContester2.0\GameContester.Contracts\bin\Debug\ru\Microsoft.Owin.resources.dll
+F:\GameContester\GameContester2.0\GameContester.Contracts\bin\Debug\ru\Microsoft.Owin.Security.resources.dll
