@@ -20,7 +20,7 @@
                         email: self.username,
                         Password: self.password
                     },
-                beforeSend: function () {
+                beforeSend: function(){
                     sessionStorage.clear();
                     $('#userpanel').find('#anonim').show();
                     $('#userpanel').find('#user').hide();
@@ -28,15 +28,16 @@
                 },
                 success: function (data) {
 
-
+                    
                     $("#error_message").hide();
 
+                    //TODO: Create method for this
                     sessionStorage.setItem(tokenKey, data.token);
                     sessionStorage.setItem("authorized", data.isAuthorized);
                     sessionStorage.setItem("username", data.firstName + " " + data.secondName);
                     sessionStorage.setItem("role", data.role);
 
-
+                    //TODO: Rewrite code below this knockout. Do not use jQuery
                     $('#userpanel').find('#anonim').hide();
 
                     if (data.role == "Admin") {

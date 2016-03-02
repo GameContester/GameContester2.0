@@ -1,11 +1,11 @@
-﻿using System.Web;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.WebPages;
 using RazorGenerator.Mvc;
 
-[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(GameContester.Web.RazorGeneratorMvcStart), "Start")]
+[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(GameContester.Web.App_Start.RazorGeneratorMvcStart), "Start")]
 
-namespace GameContester.Web {
+namespace GameContester.Web.App_Start {
     public static class RazorGeneratorMvcStart {
         public static void Start() {
             var engine = new PrecompiledMvcEngine(typeof(RazorGeneratorMvcStart).Assembly) {

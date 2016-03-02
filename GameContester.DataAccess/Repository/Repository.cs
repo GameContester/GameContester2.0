@@ -5,16 +5,16 @@ using GameContester.Domain.Entities;
 
 namespace GameContester.DataAccess.Repository
 {
-  public  class Repository<T, TKey> : IRepository<T, TKey> where T : class, IEntity<TKey>
+    public class Repository<T, TKey> : IRepository<T, TKey> where T : class, IEntity<TKey>
     {
-        public Repository(GameContesterDBContext context)
+        public Repository(GameContesterDbContext context)
         {
             this.Context = context;
         }
 
-        protected readonly GameContesterDBContext Context;
+        protected readonly GameContesterDbContext Context;
 
-        protected internal DbSet<T> Entities
+        protected internal DbSet<T> Entities 
         {
             get { return Context.Set<T>(); }
         }

@@ -1,0 +1,23 @@
+﻿<div id="profile_section">
+    <div class="row">
+
+        <div class="col-md-3 text-center">
+            <img id="avatar" data-bind="attr:{src: Imagesrc }" height="150" width="150" /><br />
+            <input type="button" data-bind="click: ban, visible: IsAdmin" class="btn btn-danger" style="margin-top:10px" value="Ban" />
+        </div>
+
+        <div class="col-md-4 ">
+            <h1> <strong data-bind="text: fullName">FullName</strong></h1>
+            <div class="form-group">
+                <label for="usr">About myself :</label>
+            </div>
+
+            <p data-bind="text: About">
+            </p>
+            <hr />
+            <h2></h2>
+            <button type="button" class="btn btn-default" id="properties_btn" data-bind="click: goToEdit, visible: AllowEdit" resource="">Edit</button>
+        </div>
+
+    </div>
+</div>

@@ -1,9 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace GameContester.Service.Models
 {
     public class ProfileViewModel
     {
+      
         [Required]
         public string Id { get; set; }
 
@@ -12,9 +17,10 @@ namespace GameContester.Service.Models
         public string SecondName { get; set; }
 
         public string About { get; set; }
-
+        
         public string Picture { get; set; }
 
         public bool IsBanned { get; set; }
+     
     }
 }

@@ -14,7 +14,6 @@ using GameContester.DataAccess.Repository;
 using GameContester.DataAccess;
 using GameContester.DataAccess.Managers;
 using GameContester.Application.Services;
-using GameContester.Service.App_Start;
 
 namespace GameContester.Service
 {
@@ -29,13 +28,13 @@ namespace GameContester.Service
             app.UseCors(CorsOptions.AllowAll);
             app.UseWebApi(config);
             config.DependencyResolver = new NinjectResolver(kernel);
-            //config.Services.Replace(typeof(IExceptionHandler), new OopsExceptionHandler());
+            config.Services.Replace(typeof(IExceptionHandler), new OopsExceptionHandler());
         }
 
         public void ConfigureOAuth(IAppBuilder app)
         {
-            var context = new GameContesterDBContext();
-            var userService = new UserService(new UserRepositiry(context, new UserManager(context)), new MailService());
+            var context = new GameContesterDbContext();
+            var userService = new UserService(new UserRepository(context, new UserManager(context)), new MailService());
 
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {

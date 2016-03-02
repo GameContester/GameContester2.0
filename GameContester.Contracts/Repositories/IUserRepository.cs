@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 namespace GameContester.Contracts.Repositories
 {
-   public interface IUserRepository : IRepository<User, string>
+    public interface IUserRepository : IRepository<User, string>
     {
-        IdentityResult Register(User user, string password);
+        IdentityResult Register(User user, string password); 
         User Login(string email, string password);
         User GetUserByEmail(string email);
         string ForgotPassword(string userId);

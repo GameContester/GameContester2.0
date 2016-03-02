@@ -1,5 +1,0 @@
-F:\Github\bike-mates\BikeMates\BikeMates.Application\bin\Debug\BikeMates.Application.dll
-F:\Github\bike-mates\BikeMates\BikeMates.Application\bin\Debug\BikeMates.Application.pdb
-F:\Github\bike-mates\BikeMates\BikeMates.Application\obj\Debug\BikeMates.Application.csprojResolveAssemblyReference.cache
-F:\Github\bike-mates\BikeMates\BikeMates.Application\obj\Debug\BikeMates.Application.dll
-F:\Github\bike-mates\BikeMates\BikeMates.Application\obj\Debug\BikeMates.Application.pdb

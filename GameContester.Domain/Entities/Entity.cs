@@ -2,7 +2,7 @@
 
 namespace GameContester.Domain.Entities
 {
-    class Entity: IEntity<int>
+    public class Entity: IEntity<int>
     {
         [Key]
         public int Id { get; set; }

@@ -5,7 +5,8 @@
     function LoginViewModel() {
         this.username = ko.observable("");
         this.password = ko.observable("");
-        this.login = function () {
+        this.login = function()
+        {
             $.ajax({
                 url: 'http://localhost:51952/api/account/login',
                 type: 'POST',
@@ -33,5 +34,5 @@
     }
 
     ko.applyBindings(new LoginViewModel());
-});
+  });
 

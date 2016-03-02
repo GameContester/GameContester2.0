@@ -3,7 +3,7 @@ using Microsoft.AspNet.Identity;
 
 namespace GameContester.Contracts.Managers
 {
-   public interface IUserManager
+    public interface IUserManager
     {
         IdentityResult Create(User user, string password);
         IdentityResult AddToRole(string userId, string role);

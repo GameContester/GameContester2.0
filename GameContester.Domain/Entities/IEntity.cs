@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GameContester.Domain.Entities
+﻿namespace GameContester.Domain.Entities
 {
-    public interface IEntity<TKEy>
+    public interface IEntity<TKey> //TODO: Move to Contracts project
     {
-        TKEy Id { get; set; }
+        TKey Id { get; set; }
     }
 }

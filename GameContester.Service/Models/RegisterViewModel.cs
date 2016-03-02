@@ -1,4 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
 
 namespace GameContester.Service.Models
 {
@@ -8,7 +12,7 @@ namespace GameContester.Service.Models
         [Display(Name = "Name")]
         public string FirstName { get; set; }
 
-        [Required]
+         [Required]
         [Display(Name = "Surname")]
         public string SecondName { get; set; }
 
@@ -19,7 +23,7 @@ namespace GameContester.Service.Models
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
+        [DataType(DataType.Password)] 
         [Display(Name = "Password")]
         public string Password { get; set; }
 

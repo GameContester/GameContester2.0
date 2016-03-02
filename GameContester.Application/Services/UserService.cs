@@ -76,13 +76,13 @@ namespace GameContester.Application.Services
             {
                 IdentityResult passwordResult = this.userRepository.ChangePassword(oldPassword, newPassword, id);
                 if (!passwordResult.Succeeded)
-                {
-                    List<string> identityResultErrors = new List<string>(passwordResult.Errors);
-                    passwordErrors.AddRange(identityResultErrors);
-                }
+                    {
+                        List<string> identityResultErrors = new List<string>(passwordResult.Errors);
+                        passwordErrors.AddRange(identityResultErrors);
+                    }
             }
             return passwordErrors;
-
+           
         }
 
         public IdentityResult ResetPassword(string id, string code, string password)
@@ -102,14 +102,14 @@ namespace GameContester.Application.Services
         }
 
         public IEnumerable<string> CheckUserName(User entity)
-        {
+        { 
             List<string> nameErrors = new List<string>();
-
+          
             if (String.IsNullOrWhiteSpace(entity.FirstName))
             { nameErrors.Add("First name field cant be empty"); }
 
             if (String.IsNullOrWhiteSpace(entity.SecondName))
-            { nameErrors.Add("Second name field cant be empty"); }
+            {nameErrors.Add("Second name field cant be empty"); }
 
             return nameErrors;
         }
@@ -119,18 +119,18 @@ namespace GameContester.Application.Services
             List<string> informationStatus = new List<string>();
             User user = this.GetUser(userId);
 
-            if (user.FirstName != firstName)
-            {
-                informationStatus.Add("First name changed");
-            }
+            if ( user.FirstName != firstName  )
+                {
+                    informationStatus.Add("First name changed");
+                }
             if (user.SecondName != secondName)
-            {
-                informationStatus.Add("Second name changed");
-            }
+                {
+                    informationStatus.Add("Second name changed");
+                }
             if (user.About != about)
-            {
-                informationStatus.Add("About changed");
-            }
+                {
+                    informationStatus.Add("About changed");
+                }
 
             return informationStatus;
         }
@@ -139,14 +139,14 @@ namespace GameContester.Application.Services
         {
             List<string> nameErrors = new List<string>();
 
-            if (String.IsNullOrWhiteSpace(firstName))
-            {
-                nameErrors.Add("First name cannot be empty");
-            }
+            if ( String.IsNullOrWhiteSpace(firstName))
+                {
+                    nameErrors.Add("First name cannot be empty");
+                }
             if (String.IsNullOrWhiteSpace(secondName))
-            {
-                nameErrors.Add("Second name cannot be empty");
-            }
+                {
+                    nameErrors.Add("Second name cannot be empty");
+                }
 
             return nameErrors;
         }
@@ -156,18 +156,18 @@ namespace GameContester.Application.Services
             List<string> passwordErrors = new List<string>();
             if (!String.IsNullOrWhiteSpace(oldPassword) && !String.IsNullOrWhiteSpace(newPassword) && !String.IsNullOrWhiteSpace(newPasswordConfirmation))
             {
-                if (newPassword != newPasswordConfirmation)
-                {
-                    passwordErrors.Add("New password and password confirmation does not match");
-                }
-                if (newPassword.Length < 6)
-                {
-                    passwordErrors.Add("New password is less than 6 symbols");
-                }
-                if (newPasswordConfirmation.Length < 6)
-                {
-                    passwordErrors.Add("New password confirmation is less than 6 symbols");
-                }
+                if ( newPassword  != newPasswordConfirmation)
+                    {
+                      passwordErrors.Add("New password and password confirmation does not match");
+                    }
+                if ( newPassword.Length < 6 )
+                    {
+                        passwordErrors.Add("New password is less than 6 symbols");
+                    }
+                if ( newPasswordConfirmation.Length < 6 )
+                    {
+                        passwordErrors.Add("New password confirmation is less than 6 symbols");
+                    }
             }
             return passwordErrors;
         }

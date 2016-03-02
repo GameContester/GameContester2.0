@@ -1,8 +1,14 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using System;
+using System.Net;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Web.Http.ExceptionHandling;
+using Microsoft.AspNet.Identity;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Web.Http;
+
 
 namespace GameContester.Service.Controllers
 {
@@ -10,11 +16,11 @@ namespace GameContester.Service.Controllers
     public class BaseController : ApiController
     {
         protected string UserId
-        {
+        { 
             get
             {
                 ClaimsPrincipal principal = Request.GetRequestContext().Principal as ClaimsPrincipal;
-                return principal.Claims.Single(c => c.Type == "id").Value;
+                return principal != null && principal.Claims.Any()? principal.Claims.Single(c => c.Type == "id").Value : String.Empty;
             }
         }
 
@@ -45,5 +51,7 @@ namespace GameContester.Service.Controllers
 
             return null;
         }
+
+
     }
 }

@@ -7,10 +7,10 @@ using Microsoft.Owin.Security.DataProtection;
 
 namespace GameContester.DataAccess.Managers
 {
-   public class UserManager : IUserManager
+    public class UserManager:IUserManager
     {
         private readonly UserManager<User> userManager;
-        public UserManager(GameContesterDBContext context)
+        public UserManager(GameContesterDbContext context) 
         {
             userManager = new UserManager<User>(new UserStore<User>(context));
             var provider = new DpapiDataProtectionProvider("GameContester");
@@ -19,7 +19,7 @@ namespace GameContester.DataAccess.Managers
 
         public IdentityResult Create(User user, string password)
         {
-            return userManager.Create(user, password);
+            return userManager.Create(user, password); 
         }
 
         public IdentityResult AddToRole(string userId, string role)
@@ -34,7 +34,7 @@ namespace GameContester.DataAccess.Managers
 
         public User Find(string email, string password)
         {
-            return userManager.Find(email, password);
+            return userManager.Find(email, password); 
         }
 
         public User FindByEmail(string email)

@@ -16,7 +16,7 @@ namespace GameContester.Service.Providers
 
         public SimpleAuthorizationServerProvider(IUserService userService)
         {
-
+           
             this.userService = userService;
         }
 

@@ -2,7 +2,7 @@
 
 namespace GameContester.Contracts.Repositories
 {
-  public  interface IRepository<T, TKey>
+    public interface IRepository<T, TKey>
     {
         void Add(T entity);
         void Delete(TKey entity);
