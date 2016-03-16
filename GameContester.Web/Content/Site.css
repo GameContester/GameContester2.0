@@ -16,6 +16,15 @@
     white-space: normal;
 }
 
+ul hr{
+    margin:0;
+
+}
+ul hr li{
+    display: inline;
+    list-style-type: none;
+}
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,

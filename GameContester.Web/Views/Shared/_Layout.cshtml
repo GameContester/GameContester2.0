@@ -4,69 +4,91 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title -GameContester</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        ul.hr {
+            margin: 0; 
+          }
 
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"></button>
-                <a href="#" class=" navbar-brand">GameContester</a>
-            </div>
+            ul.hr li {
+                display: inline; 
+               list-style-type: none;
+            }
+    </style>
+       
+        
+              <title>@ViewBag.Title -GameContester</title>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <script src="@Url.Content("jquery.min.js")"></script>
+        <script src="@Url.Content("skel.min.js")"></script>
+        <script src="@Url.Content("skel-layers.min.js")"></script>
+        <script src="@Url.Content("init.js")"></script>
+
+        <link rel="stylesheet" href="skel.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="style-xlarge.css" type="text/css" />
+
+      
+
+    </head>
+    <body class="=landing">
+        <header id="header">
+            <h1><a href="#">GameContester</a></h1>
+
+            
 
 
                 <div data-bind="authBinding" id="userpanel">
                     <div id="anonim">
-                        <ul class="nav navbar-nav navbar-right" id="anonimus">
-                            <li><a href="#register" id="registerLink">Sing up</a></li>
-                            <li style="margin-left:2px"><a href="#login" id="loginLink">Sing in</a></li>
-                        </ul>
-                    </div>
-                    <div hidden="hidden" id="user">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
-                            </li>
-                            <li style="margin-left:2px">
-                                <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div hidden="hidden" id="admin">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li style="margin-right:2px">
-                                <a href="#admin" id="registerLink"><strong>Admin panel</strong></a>
-                            </li>
-                            <li>
-                                <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
-                            </li>
-                            <li style="margin-left:2px">
-                                <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                        <nav id="nav">
+                            <ul class="hr" id="anonimus">
 
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#login" class="button special">Sign In</a></li>
+                                <li><a href="#register" class="button special">Sign Up</a></li>
+                            </ul>
+                        </nav>
             </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        <div id="page1" class="container" style="padding-top:50px" data-bind="component: { name: route().page, params: route }"></div>
-    </div>
-    <script src="App/boot/require.config.js"></script>
-    <script data-main="App/boot/startup" src="Scripts/require/require.js"></script>
-    <script src="~/Scripts/jquery-1.10.2.js"></script>
-    <script src="~/Scripts/App_Scripts/LayoutScript.js"></script>
-    <div class="container body-content" hidden="hidden">
-    @RenderBody()
-    </div>
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+            <div hidden="hidden" id="user">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
+                    </li>
+                    <li style="margin-left:2px">
+                        <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
+                    </li>
+                </ul>
+            </div>
+            <div hidden="hidden" id="admin">
+                <ul class="nav navbar-nav navbar-right">
+                    <li style="margin-right:2px">
+                        <a href="#admin" id="registerLink"><strong>Admin panel</strong></a>
+                    </li>
+                    <li>
+                        <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
+                    </li>
+                    <li style="margin-left:2px">
+                        <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          
+        </header>
 
-</body>
+            
+        <div class="container body-content">
+            <div id="page1" class="container" style="padding-top:50px" data-bind="component: { name: route().page, params: route }"></div>
+        </div>
+        <script src="App/boot/require.config.js"></script>
+        <script data-main="App/boot/startup" src="Scripts/require/require.js"></script>
+        <script src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/App_Scripts/LayoutScript.js"></script>
+        <div class="container body-content" hidden="hidden">
+            @RenderBody()
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+    </body>
 </html>

@@ -48,125 +48,143 @@ WriteLiteral(" name=\"viewport\"");
 
 WriteLiteral(" content=\"width=device-width, initial-scale=1.0\"");
 
-WriteLiteral(">\r\n    <title>");
+WriteLiteral(">\r\n    <meta");
+
+WriteLiteral(" http-equiv=\"content-type\"");
+
+WriteLiteral(" content=\"text/html; charset=utf-8\"");
+
+WriteLiteral(" />\r\n    <meta");
+
+WriteLiteral(" name=\"description\"");
+
+WriteLiteral(" content=\"\"");
+
+WriteLiteral(" />\r\n    <meta");
+
+WriteLiteral(" name=\"keywords\"");
+
+WriteLiteral(" content=\"\"");
+
+WriteLiteral(" />\r\n    <script");
+
+WriteLiteral(" src=\"App/boot/require.config.js\"");
+
+WriteLiteral("></script>\r\n    <script");
+
+WriteLiteral(" data-main=\"App/boot/startup\"");
+
+WriteLiteral(" src=\"Scripts/require/require.js\"");
+
+WriteLiteral("></script>\r\n    <title>");
 
             
-            #line 6 "..\..\Views\Home\_Layout.cshtml"
+            #line 11 "..\..\Views\Home\_Layout.cshtml"
       Write(ViewBag.Title);
 
             
             #line default
             #line hidden
-WriteLiteral(" -GameContester</title>\r\n");
+WriteLiteral(" -GameContester</title>\r\n\r\n    <script");
+
+WriteAttribute("src", Tuple.Create(" src=\"", 503), Tuple.Create("\"", 532)
+, Tuple.Create(Tuple.Create("", 509), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/jquery.min.js")
+, 509), false)
+);
+
+WriteLiteral("></script>\r\n    <script");
+
+WriteAttribute("src", Tuple.Create(" src=\"", 556), Tuple.Create("\"", 583)
+, Tuple.Create(Tuple.Create("", 562), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/skel.min.js")
+, 562), false)
+);
+
+WriteLiteral("></script>\r\n    <script");
+
+WriteAttribute("src", Tuple.Create(" src=\"", 607), Tuple.Create("\"", 641)
+, Tuple.Create(Tuple.Create("", 613), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/skel-layers.min.js")
+, 613), false)
+);
+
+WriteLiteral("></script>\r\n    <script");
+
+WriteAttribute("src", Tuple.Create(" src=\"", 665), Tuple.Create("\"", 688)
+, Tuple.Create(Tuple.Create("", 671), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/init.js")
+, 671), false)
+);
+
+WriteLiteral("></script>\r\n\r\n    <link");
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+WriteAttribute("href", Tuple.Create(" href=\"", 729), Tuple.Create("\"", 754)
+, Tuple.Create(Tuple.Create("", 736), Tuple.Create<System.Object, System.Int32>(Href("~/Content/skel.css")
+, 736), false)
+);
+
+WriteLiteral(" />\r\n    <link");
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+WriteAttribute("href", Tuple.Create(" href=\"", 786), Tuple.Create("\"", 812)
+, Tuple.Create(Tuple.Create("", 793), Tuple.Create<System.Object, System.Int32>(Href("~/Content/style.css")
+, 793), false)
+);
+
+WriteLiteral(" />\r\n    <link");
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+WriteAttribute("href", Tuple.Create(" href=\"", 844), Tuple.Create("\"", 877)
+, Tuple.Create(Tuple.Create("", 851), Tuple.Create<System.Object, System.Int32>(Href("~/Content/style-xlarge.css")
+, 851), false)
+);
+
+WriteLiteral(" />\r\n\r\n   \r\n");
 
 WriteLiteral("    ");
 
             
-            #line 7 "..\..\Views\Home\_Layout.cshtml"
-Write(Styles.Render("~/Content/css"));
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 8 "..\..\Views\Home\_Layout.cshtml"
+            #line 23 "..\..\Views\Home\_Layout.cshtml"
 Write(Scripts.Render("~/bundles/modernizr"));
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n</head>\r\n<body>\r\n    <div");
+WriteLiteral("\r\n\r\n</head>\r\n<body>\r\n    <header");
 
-WriteLiteral(" class=\"navbar navbar-inverse navbar-fixed-top\"");
+WriteLiteral(" id=\"header\"");
 
-WriteLiteral(">\r\n        <div");
-
-WriteLiteral(" class=\"container\"");
-
-WriteLiteral(">\r\n            <div");
-
-WriteLiteral(" class=\"navbar-header\"");
-
-WriteLiteral(">\r\n                <button");
-
-WriteLiteral(" type=\"button\"");
-
-WriteLiteral(" class=\"navbar-toggle collapsed\"");
-
-WriteLiteral(" data-toggle=\"collapse\"");
-
-WriteLiteral(" data-target=\"#bs-example-navbar-collapse-2\"");
-
-WriteLiteral("></button>\r\n                <img");
-
-WriteLiteral(" src=\"/Content/Images/logo.png\"");
-
-WriteLiteral(" align=\"left\"");
-
-WriteLiteral(" width=\"128\"");
-
-WriteLiteral(" height=\"60\"");
-
-WriteLiteral(" />\r\n                <a");
+WriteLiteral(">\r\n        <h1><a");
 
 WriteLiteral(" href=\"#\"");
 
-WriteLiteral(" class=\" navbar-brand\"");
+WriteLiteral(">Transit</a></h1>\r\n        <nav");
 
-WriteLiteral(">GameContester</a>\r\n            </div>\r\n\r\n            <div");
+WriteLiteral(" id=\"nav\"");
 
-WriteLiteral(" class=\"collapse navbar-collapse\"");
+WriteLiteral(">\r\n            <ul>\r\n                <li><a");
 
-WriteLiteral(" id=\"bs-example-navbar-collapse-1\"");
+WriteLiteral(" href=\"#\"");
 
-WriteLiteral(">\r\n                <form");
-
-WriteLiteral(" class=\"navbar-form navbar-left home-search-form\"");
-
-WriteLiteral(" role=\"search\"");
-
-WriteLiteral(">\r\n                    <div");
-
-WriteLiteral(" class=\"form-group\"");
-
-WriteLiteral(">\r\n                        <input");
-
-WriteLiteral(" type=\"text\"");
-
-WriteLiteral(" class=\"form-control\"");
-
-WriteLiteral(" placeholder=\"Search\"");
-
-WriteLiteral(">\r\n                    </div>\r\n                    <button");
-
-WriteLiteral(" type=\"submit\"");
-
-WriteLiteral(" class=\"btn btn-default\"");
-
-WriteLiteral(" style=\"margin-top:1px\"");
-
-WriteLiteral(">Search</button>\r\n                </form>\r\n                <ul");
-
-WriteLiteral(" class=\"nav navbar-nav navbar-right\"");
-
-WriteLiteral(">\r\n                    <li><a");
+WriteLiteral(">Home</a></li>\r\n                <li><a");
 
 WriteLiteral(" href=\"#register\"");
 
 WriteLiteral(" id=\"registerLink\"");
 
-WriteLiteral(">Sing up</a></li>\r\n                    <li><a");
+WriteLiteral(" class=\"button special\"");
+
+WriteLiteral(">Sign Up</a></li>\r\n                <li><a");
 
 WriteLiteral(" href=\"#login\"");
 
 WriteLiteral(" id=\"loginLink\"");
 
-WriteLiteral(">Sing in</a></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n   " +
-" </div>\r\n\r\n    <div");
+WriteLiteral(" class=\"button special\"");
+
+WriteLiteral(">Sign In</a></li>\r\n\r\n            </ul>\r\n        </nav>\r\n    </header>\r\n\r\n    <div" +
+"");
 
 WriteLiteral(" class=\"container body-content\"");
 
@@ -189,7 +207,7 @@ WriteLiteral(">\r\n");
 WriteLiteral("        ");
 
             
-            #line 39 "..\..\Views\Home\_Layout.cshtml"
+            #line 43 "..\..\Views\Home\_Layout.cshtml"
    Write(RenderBody());
 
             
@@ -200,7 +218,7 @@ WriteLiteral("\r\n    </div>\r\n</body>\r\n");
 WriteLiteral("    ");
 
             
-            #line 42 "..\..\Views\Home\_Layout.cshtml"
+            #line 46 "..\..\Views\Home\_Layout.cshtml"
 Write(Scripts.Render("~/bundles/jquery"));
 
             
@@ -211,7 +229,7 @@ WriteLiteral("\r\n");
 WriteLiteral("    ");
 
             
-            #line 43 "..\..\Views\Home\_Layout.cshtml"
+            #line 47 "..\..\Views\Home\_Layout.cshtml"
 Write(Scripts.Render("~/bundles/bootstrap"));
 
             
@@ -222,23 +240,13 @@ WriteLiteral("\r\n");
 WriteLiteral("    ");
 
             
-            #line 44 "..\..\Views\Home\_Layout.cshtml"
+            #line 48 "..\..\Views\Home\_Layout.cshtml"
 Write(RenderSection("scripts", required: false));
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n    <script");
-
-WriteLiteral(" src=\"App/boot/require.config.js\"");
-
-WriteLiteral("></script>\r\n    <script");
-
-WriteLiteral(" data-main=\"App/boot/startup\"");
-
-WriteLiteral(" src=\"Scripts/require/require.js\"");
-
-WriteLiteral("></script>\r\n\r\n</html>\r\n");
+WriteLiteral("\r\n    \r\n\r\n</html>\r\n");
 
         }
     }

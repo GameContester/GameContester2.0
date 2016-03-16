@@ -235,13 +235,25 @@
     <Content Include="App\pages\account\forgotpassword\forgotPassword.js" />
     <Content Include="App\pages\account\resetpassword\resetPassword.html" />
     <Content Include="App\pages\account\resetpassword\resetPassword.js" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\bokeh_car_lights_bg.jpg" />
+    <Content Include="Content\Images\dark_tint.png" />
     <Content Include="Content\Images\error\400.jpg" />
     <Content Include="Content\Images\error\401.png" />
     <Content Include="Content\Images\error\403.png" />
     <Content Include="Content\Images\error\404.png" />
     <Content Include="Content\Images\error\500.jpg" />
     <Content Include="Content\Images\FB.png" />
+    <Content Include="Content\Images\pic02.jpg" />
+    <Content Include="Content\Images\pic03.jpg" />
+    <Content Include="Content\Images\pic04.jpg" />
+    <Content Include="Content\Images\pic07.jpg" />
+    <Content Include="Content\Images\pic08.jpg" />
+    <Content Include="Content\Images\profile_placeholder.gif" />
     <Content Include="Content\Images\VK.com-logo.svg.png" />
+    <Content Include="Content\skel.css" />
+    <Content Include="Content\style-xlarge.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Scripts\App_Scripts\AuthModelScript.js" />
     <Content Include="Scripts\App_Scripts\AuthScript.js" />
     <Content Include="Scripts\App_Scripts\ForgotPasswordScript.js" />
@@ -278,6 +290,8 @@
     <Content Include="Scripts\crossroads\signals.js" />
     <Content Include="Scripts\crossroads\signals.min.js" />
     <Content Include="Scripts\App_Scripts\GetUserIdWebApi.js" />
+    <Content Include="Scripts\init.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\require\async.js" />
     <Content Include="Scripts\require\text.js" />
     <Content Include="Scripts\App_Scripts\EditProfileScript.js" />
@@ -286,6 +300,10 @@
     <Content Include="Scripts\App_Scripts\RegistrationScript.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -306,6 +324,8 @@
     <Content Include="Scripts\require\require.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\skel-layers.min.js" />
+    <Content Include="Scripts\skel.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -323,8 +343,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\components\" />

@@ -57,63 +57,113 @@ WriteLiteral(">\r\n    <title>");
             
             #line default
             #line hidden
-WriteLiteral(" -GameContester</title>\r\n");
+WriteLiteral(@" -GameContester</title>
+    <style>
+        ul.hr {
+            margin: 0; 
+          }
 
-WriteLiteral("    ");
+            ul.hr li {
+                display: inline; 
+               list-style-type: none;
+            }
+    </style>
+       
+        
+              <title>");
 
             
-            #line 7 "..\..\Views\Shared\_Layout.cshtml"
-Write(Styles.Render("~/Content/css"));
+            #line 19 "..\..\Views\Shared\_Layout.cshtml"
+                Write(ViewBag.Title);
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral(" -GameContester</title>\r\n\r\n        <script");
 
-WriteLiteral("    ");
-
+WriteAttribute("src", Tuple.Create(" src=\"", 482), Tuple.Create("\"", 517)
             
-            #line 8 "..\..\Views\Shared\_Layout.cshtml"
-Write(Scripts.Render("~/bundles/modernizr"));
-
+            #line 21 "..\..\Views\Shared\_Layout.cshtml"
+, Tuple.Create(Tuple.Create("", 488), Tuple.Create<System.Object, System.Int32>(Url.Content("jquery.min.js")
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n</head>\r\n<body>\r\n    <div");
+, 488), false)
+);
 
-WriteLiteral(" class=\"navbar navbar-inverse navbar-fixed-top\"");
+WriteLiteral("></script>\r\n        <script");
 
-WriteLiteral(">\r\n        <div");
+WriteAttribute("src", Tuple.Create(" src=\"", 545), Tuple.Create("\"", 578)
+            
+            #line 22 "..\..\Views\Shared\_Layout.cshtml"
+, Tuple.Create(Tuple.Create("", 551), Tuple.Create<System.Object, System.Int32>(Url.Content("skel.min.js")
+            
+            #line default
+            #line hidden
+, 551), false)
+);
 
-WriteLiteral(" class=\"container\"");
+WriteLiteral("></script>\r\n        <script");
 
-WriteLiteral(">\r\n            <div");
+WriteAttribute("src", Tuple.Create(" src=\"", 606), Tuple.Create("\"", 646)
+            
+            #line 23 "..\..\Views\Shared\_Layout.cshtml"
+, Tuple.Create(Tuple.Create("", 612), Tuple.Create<System.Object, System.Int32>(Url.Content("skel-layers.min.js")
+            
+            #line default
+            #line hidden
+, 612), false)
+);
 
-WriteLiteral(" class=\"navbar-header\"");
+WriteLiteral("></script>\r\n        <script");
 
-WriteLiteral(">\r\n                <button");
+WriteAttribute("src", Tuple.Create(" src=\"", 674), Tuple.Create("\"", 703)
+            
+            #line 24 "..\..\Views\Shared\_Layout.cshtml"
+, Tuple.Create(Tuple.Create("", 680), Tuple.Create<System.Object, System.Int32>(Url.Content("init.js")
+            
+            #line default
+            #line hidden
+, 680), false)
+);
 
-WriteLiteral(" type=\"button\"");
+WriteLiteral("></script>\r\n\r\n        <link");
 
-WriteLiteral(" class=\"navbar-toggle collapsed\"");
+WriteLiteral(" rel=\"stylesheet\"");
 
-WriteLiteral(" data-toggle=\"collapse\"");
+WriteLiteral(" href=\"skel.css\"");
 
-WriteLiteral(" data-target=\"#bs-example-navbar-collapse-2\"");
+WriteLiteral(" type=\"text/css\"");
 
-WriteLiteral("></button>\r\n                <a");
+WriteLiteral(" />\r\n        <link");
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+WriteLiteral(" href=\"style.css\"");
+
+WriteLiteral(" type=\"text/css\"");
+
+WriteLiteral(" />\r\n        <link");
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+WriteLiteral(" href=\"style-xlarge.css\"");
+
+WriteLiteral(" type=\"text/css\"");
+
+WriteLiteral(" />\r\n\r\n      \r\n\r\n    </head>\r\n    <body");
+
+WriteLiteral(" class=\"=landing\"");
+
+WriteLiteral(">\r\n        <header");
+
+WriteLiteral(" id=\"header\"");
+
+WriteLiteral(">\r\n            <h1><a");
 
 WriteLiteral(" href=\"#\"");
 
-WriteLiteral(" class=\" navbar-brand\"");
-
-WriteLiteral(">GameContester</a>\r\n            </div>\r\n\r\n            <div");
-
-WriteLiteral(" class=\"collapse navbar-collapse\"");
-
-WriteLiteral(" id=\"bs-example-navbar-collapse-1\"");
-
-WriteLiteral(">\r\n\r\n\r\n                <div");
+WriteLiteral(">GameContester</a></h1>\r\n\r\n            \r\n\r\n\r\n                <div");
 
 WriteLiteral(" data-bind=\"authBinding\"");
 
@@ -123,40 +173,44 @@ WriteLiteral(">\r\n                    <div");
 
 WriteLiteral(" id=\"anonim\"");
 
-WriteLiteral(">\r\n                        <ul");
+WriteLiteral(">\r\n                        <nav");
 
-WriteLiteral(" class=\"nav navbar-nav navbar-right\"");
+WriteLiteral(" id=\"nav\"");
+
+WriteLiteral(">\r\n                            <ul");
+
+WriteLiteral(" class=\"hr\"");
 
 WriteLiteral(" id=\"anonimus\"");
 
-WriteLiteral(">\r\n                            <li><a");
+WriteLiteral(">\r\n\r\n                                <li><a");
 
-WriteLiteral(" href=\"#register\"");
+WriteLiteral(" href=\"#\"");
 
-WriteLiteral(" id=\"registerLink\"");
-
-WriteLiteral(">Sing up</a></li>\r\n                            <li");
-
-WriteLiteral(" style=\"margin-left:2px\"");
-
-WriteLiteral("><a");
+WriteLiteral(">Home</a></li>\r\n                                <li><a");
 
 WriteLiteral(" href=\"#login\"");
 
-WriteLiteral(" id=\"loginLink\"");
+WriteLiteral(" class=\"button special\"");
 
-WriteLiteral(">Sing in</a></li>\r\n                        </ul>\r\n                    </div>\r\n   " +
-"                 <div");
+WriteLiteral(">Sign In</a></li>\r\n                                <li><a");
+
+WriteLiteral(" href=\"#register\"");
+
+WriteLiteral(" class=\"button special\"");
+
+WriteLiteral(">Sign Up</a></li>\r\n                            </ul>\r\n                        </n" +
+"av>\r\n            </div>\r\n            <div");
 
 WriteLiteral(" hidden=\"hidden\"");
 
 WriteLiteral(" id=\"user\"");
 
-WriteLiteral(">\r\n                        <ul");
+WriteLiteral(">\r\n                <ul");
 
 WriteLiteral(" class=\"nav navbar-nav navbar-right\"");
 
-WriteLiteral(">\r\n                            <li>\r\n                                <a");
+WriteLiteral(">\r\n                    <li>\r\n                        <a");
 
 WriteLiteral(" href=\"#profile?my\"");
 
@@ -166,12 +220,11 @@ WriteLiteral("><strong");
 
 WriteLiteral(" id=\"user-name\"");
 
-WriteLiteral(">Name Surname</strong></a>\r\n                            </li>\r\n                  " +
-"          <li");
+WriteLiteral(">Name Surname</strong></a>\r\n                    </li>\r\n                    <li");
 
 WriteLiteral(" style=\"margin-left:2px\"");
 
-WriteLiteral(">\r\n                                <a");
+WriteLiteral(">\r\n                        <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -179,29 +232,29 @@ WriteLiteral(" id=\"registerLink\"");
 
 WriteLiteral(" class=\"logout\"");
 
-WriteLiteral("><strong>Sign out</strong></a>\r\n                            </li>\r\n              " +
-"          </ul>\r\n                    </div>\r\n                    <div");
+WriteLiteral("><strong>Sign out</strong></a>\r\n                    </li>\r\n                </ul>\r" +
+"\n            </div>\r\n            <div");
 
 WriteLiteral(" hidden=\"hidden\"");
 
 WriteLiteral(" id=\"admin\"");
 
-WriteLiteral(">\r\n                        <ul");
+WriteLiteral(">\r\n                <ul");
 
 WriteLiteral(" class=\"nav navbar-nav navbar-right\"");
 
-WriteLiteral(">\r\n                            <li");
+WriteLiteral(">\r\n                    <li");
 
 WriteLiteral(" style=\"margin-right:2px\"");
 
-WriteLiteral(">\r\n                                <a");
+WriteLiteral(">\r\n                        <a");
 
 WriteLiteral(" href=\"#admin\"");
 
 WriteLiteral(" id=\"registerLink\"");
 
-WriteLiteral("><strong>Admin panel</strong></a>\r\n                            </li>\r\n           " +
-"                 <li>\r\n                                <a");
+WriteLiteral("><strong>Admin panel</strong></a>\r\n                    </li>\r\n                   " +
+" <li>\r\n                        <a");
 
 WriteLiteral(" href=\"#profile?my\"");
 
@@ -211,12 +264,11 @@ WriteLiteral("><strong");
 
 WriteLiteral(" id=\"user-name\"");
 
-WriteLiteral(">Name Surname</strong></a>\r\n                            </li>\r\n                  " +
-"          <li");
+WriteLiteral(">Name Surname</strong></a>\r\n                    </li>\r\n                    <li");
 
 WriteLiteral(" style=\"margin-left:2px\"");
 
-WriteLiteral(">\r\n                                <a");
+WriteLiteral(">\r\n                        <a");
 
 WriteLiteral(" href=\"#\"");
 
@@ -224,13 +276,13 @@ WriteLiteral(" id=\"registerLink\"");
 
 WriteLiteral(" class=\"logout\"");
 
-WriteLiteral("><strong>Sign out</strong></a>\r\n                            </li>\r\n              " +
-"          </ul>\r\n                    </div>\r\n                </div>\r\n\r\n         " +
-"   </div>\r\n        </div>\r\n    </div>\r\n    <div");
+WriteLiteral("><strong>Sign out</strong></a>\r\n                    </li>\r\n                </ul>\r" +
+"\n            </div>\r\n            </div>\r\n          \r\n        </header>\r\n\r\n      " +
+"      \r\n        <div");
 
 WriteLiteral(" class=\"container body-content\"");
 
-WriteLiteral(">\r\n        <div");
+WriteLiteral(">\r\n            <div");
 
 WriteLiteral(" id=\"page1\"");
 
@@ -240,31 +292,31 @@ WriteLiteral(" style=\"padding-top:50px\"");
 
 WriteLiteral(" data-bind=\"component: { name: route().page, params: route }\"");
 
-WriteLiteral("></div>\r\n    </div>\r\n    <script");
+WriteLiteral("></div>\r\n        </div>\r\n        <script");
 
 WriteLiteral(" src=\"App/boot/require.config.js\"");
 
-WriteLiteral("></script>\r\n    <script");
+WriteLiteral("></script>\r\n        <script");
 
 WriteLiteral(" data-main=\"App/boot/startup\"");
 
 WriteLiteral(" src=\"Scripts/require/require.js\"");
 
-WriteLiteral("></script>\r\n    <script");
+WriteLiteral("></script>\r\n        <script");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 2936), Tuple.Create("\"", 2968)
-, Tuple.Create(Tuple.Create("", 2942), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/jquery-1.10.2.js")
-, 2942), false)
+WriteAttribute("src", Tuple.Create(" src=\"", 3212), Tuple.Create("\"", 3244)
+, Tuple.Create(Tuple.Create("", 3218), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/jquery-1.10.2.js")
+, 3218), false)
 );
 
-WriteLiteral("></script>\r\n    <script");
+WriteLiteral("></script>\r\n        <script");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 2992), Tuple.Create("\"", 3035)
-, Tuple.Create(Tuple.Create("", 2998), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/App_Scripts/LayoutScript.js")
-, 2998), false)
+WriteAttribute("src", Tuple.Create(" src=\"", 3272), Tuple.Create("\"", 3315)
+, Tuple.Create(Tuple.Create("", 3278), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/App_Scripts/LayoutScript.js")
+, 3278), false)
 );
 
-WriteLiteral("></script>\r\n    <div");
+WriteLiteral("></script>\r\n        <div");
 
 WriteLiteral(" class=\"container body-content\"");
 
@@ -272,49 +324,49 @@ WriteLiteral(" hidden=\"hidden\"");
 
 WriteLiteral(">\r\n");
 
-WriteLiteral("    ");
+WriteLiteral("            ");
 
             
-            #line 65 "..\..\Views\Shared\_Layout.cshtml"
-Write(RenderBody());
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n    </div>\r\n");
-
-WriteLiteral("    ");
-
-            
-            #line 67 "..\..\Views\Shared\_Layout.cshtml"
-Write(Scripts.Render("~/bundles/jquery"));
+            #line 87 "..\..\Views\Shared\_Layout.cshtml"
+       Write(RenderBody());
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\r\n        </div>\r\n");
 
-WriteLiteral("    ");
+WriteLiteral("        ");
 
             
-            #line 68 "..\..\Views\Shared\_Layout.cshtml"
-Write(Scripts.Render("~/bundles/bootstrap"));
+            #line 89 "..\..\Views\Shared\_Layout.cshtml"
+   Write(Scripts.Render("~/bundles/jquery"));
 
             
             #line default
             #line hidden
 WriteLiteral("\r\n");
 
-WriteLiteral("    ");
+WriteLiteral("        ");
 
             
-            #line 69 "..\..\Views\Shared\_Layout.cshtml"
-Write(RenderSection("scripts", required: false));
+            #line 90 "..\..\Views\Shared\_Layout.cshtml"
+   Write(Scripts.Render("~/bundles/bootstrap"));
 
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n</body>\r\n</html>");
+WriteLiteral("\r\n");
+
+WriteLiteral("        ");
+
+            
+            #line 91 "..\..\Views\Shared\_Layout.cshtml"
+   Write(RenderSection("scripts", required: false));
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n\r\n    </body>\r\n</html>\r\n");
 
         }
     }
