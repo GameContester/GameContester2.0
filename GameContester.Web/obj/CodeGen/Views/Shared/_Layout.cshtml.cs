@@ -127,29 +127,41 @@ WriteAttribute("src", Tuple.Create(" src=\"", 674), Tuple.Create("\"", 703)
 , 680), false)
 );
 
-WriteLiteral("></script>\r\n\r\n        <link");
+WriteLiteral("></script>\r\n\r\n    <link");
 
 WriteLiteral(" rel=\"stylesheet\"");
 
 WriteLiteral(" href=\"skel.css\"");
 
-WriteLiteral(" type=\"text/css\"");
+WriteLiteral(" />\r\n    <link");
 
-WriteLiteral(" />\r\n        <link");
-
-WriteLiteral(" rel=\"stylesheet\"");
+WriteLiteral(" rel=\'stylesheet\'");
 
 WriteLiteral(" href=\"style.css\"");
 
-WriteLiteral(" type=\"text/css\"");
+WriteLiteral(" />\r\n    <link");
 
-WriteLiteral(" />\r\n        <link");
+WriteLiteral(" rel=\'stylesheet\'");
 
-WriteLiteral(" rel=\"stylesheet\"");
+WriteLiteral(" media=\'(min-width: 1600px)\'");
 
-WriteLiteral(" href=\"style-xlarge.css\"");
+WriteLiteral(" href=\'style-xlarge.css\'");
 
-WriteLiteral(" type=\"text/css\"");
+WriteLiteral(" />\r\n    <link");
+
+WriteLiteral(" rel=\'stylesheet\'");
+
+WriteLiteral(" media=\'(max-width: 1599px) and (min-width: 800px)\'");
+
+WriteLiteral(" href=\'style-medium.css\'");
+
+WriteLiteral(" />\r\n    <link");
+
+WriteLiteral(" rel=\'stylesheet\'");
+
+WriteLiteral(" media=\'(max-width: 799px) and (min-width:10px)\'");
+
+WriteLiteral(" href=\'style-xsmall.css\'");
 
 WriteLiteral(" />\r\n\r\n      \r\n\r\n    </head>\r\n    <body");
 
@@ -304,16 +316,16 @@ WriteLiteral(" src=\"Scripts/require/require.js\"");
 
 WriteLiteral("></script>\r\n        <script");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 3212), Tuple.Create("\"", 3244)
-, Tuple.Create(Tuple.Create("", 3218), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/jquery-1.10.2.js")
-, 3218), false)
+WriteAttribute("src", Tuple.Create(" src=\"", 3389), Tuple.Create("\"", 3421)
+, Tuple.Create(Tuple.Create("", 3395), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/jquery-1.10.2.js")
+, 3395), false)
 );
 
 WriteLiteral("></script>\r\n        <script");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 3272), Tuple.Create("\"", 3315)
-, Tuple.Create(Tuple.Create("", 3278), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/App_Scripts/LayoutScript.js")
-, 3278), false)
+WriteAttribute("src", Tuple.Create(" src=\"", 3449), Tuple.Create("\"", 3492)
+, Tuple.Create(Tuple.Create("", 3455), Tuple.Create<System.Object, System.Int32>(Href("~/Scripts/App_Scripts/LayoutScript.js")
+, 3455), false)
 );
 
 WriteLiteral("></script>\r\n        <div");
@@ -327,7 +339,7 @@ WriteLiteral(">\r\n");
 WriteLiteral("            ");
 
             
-            #line 87 "..\..\Views\Shared\_Layout.cshtml"
+            #line 89 "..\..\Views\Shared\_Layout.cshtml"
        Write(RenderBody());
 
             
@@ -338,7 +350,7 @@ WriteLiteral("\r\n        </div>\r\n");
 WriteLiteral("        ");
 
             
-            #line 89 "..\..\Views\Shared\_Layout.cshtml"
+            #line 91 "..\..\Views\Shared\_Layout.cshtml"
    Write(Scripts.Render("~/bundles/jquery"));
 
             
@@ -349,7 +361,7 @@ WriteLiteral("\r\n");
 WriteLiteral("        ");
 
             
-            #line 90 "..\..\Views\Shared\_Layout.cshtml"
+            #line 92 "..\..\Views\Shared\_Layout.cshtml"
    Write(Scripts.Render("~/bundles/bootstrap"));
 
             
@@ -360,7 +372,7 @@ WriteLiteral("\r\n");
 WriteLiteral("        ");
 
             
-            #line 91 "..\..\Views\Shared\_Layout.cshtml"
+            #line 93 "..\..\Views\Shared\_Layout.cshtml"
    Write(RenderSection("scripts", required: false));
 
             
