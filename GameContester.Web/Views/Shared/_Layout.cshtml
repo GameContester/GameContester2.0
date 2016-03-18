@@ -23,16 +23,18 @@
         <script src="@Url.Content("skel-layers.min.js")"></script>
         <script src="@Url.Content("init.js")"></script>
 
-        <link rel="stylesheet" href="skel.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <link rel="stylesheet" href="style-xlarge.css" type="text/css" />
+    <link rel="stylesheet" href="skel.css" />
+    <link rel='stylesheet' href="style.css" />
+    <link rel='stylesheet' media='(min-width: 1600px)' href='style-xlarge.css' />
+    <link rel='stylesheet' media='(max-width: 1599px) and (min-width: 800px)' href='style-medium.css' />
+    <link rel='stylesheet' media='(max-width: 799px) and (min-width:10px)' href='style-xsmall.css' />
 
       
 
     </head>
-    <body class="=landing">
+    <body class="page-header">
         <header id="header">
-            <h1><a href="#">GameContester</a></h1>
+            <h1 style="font-size:150%">GameContester</h1>
 
             
 
@@ -47,31 +49,40 @@
                                 <li><a href="#register" class="button special">Sign Up</a></li>
                             </ul>
                         </nav>
-            </div>
-            <div hidden="hidden" id="user">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
-                    </li>
-                    <li style="margin-left:2px">
-                        <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
-                    </li>
-                </ul>
-            </div>
-            <div hidden="hidden" id="admin">
-                <ul class="nav navbar-nav navbar-right">
-                    <li style="margin-right:2px">
-                        <a href="#admin" id="registerLink"><strong>Admin panel</strong></a>
-                    </li>
-                    <li>
-                        <a href="#profile?my" id="registerLink"><strong id="user-name">Name Surname</strong></a>
-                    </li>
-                    <li style="margin-left:2px">
-                        <a href="#" id="registerLink" class="logout"><strong>Sign out</strong></a>
-                    </li>
-                </ul>
-            </div>
-            </div>
+                        </div>
+                        <div id="user">
+                            <nav id="nav">
+                                <ul class="hr">
+                                    <li><a href="#">Home</a></li>
+                                    <li>
+                                        <a href="#profile?my" id="registerLink"><div id="user-name">Name Surname</div></a>
+                                    </li>
+                                    <li style="margin-left:25px">
+                                        <a href="#" id="registerLink" class="button special logout"><div>Sign out</div></a>
+                                    </li>
+                                </ul>
+                                </nav>
+</div>
+                    
+                        <div id="admin">
+                            <nav id="nav">
+                                <ul class="hr">
+
+                                    <li><a href="#">Home</a></li>
+                                    <li style="margin-right:2px">
+                                        <a href="#admin" class="panel-heading" id="registerLink">Admin panel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#profile?my" id="registerLink"><div id="user-name">Name Surname</div></a>
+                                    </li>
+                                    <li style="margin-left:25px">
+                                        <a href="#" id="registerLink" class="button special logout">Sign out</a>
+                                    </li>
+                                </ul>
+                            </nav>
+</div>
+                        
+</div>
           
         </header>
 

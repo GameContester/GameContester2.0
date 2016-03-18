@@ -5,15 +5,15 @@
     <div class="row">
         <div class="col-md-3 text-center">
 
-            <img id="avatar" data-bind="attr:{src: Imagesrc }" height="150" width="150" />
+           
 
             <h2></h2>
             <form enctype="multipart/form-data" action="#" data-bind="submit: loadpicture" method="post" id="image_form">
 
                 <div style="position:relative;">
                     <a class='btn btn-default' href='javascript:;'>
-                        Choose picture
-                        <input type="file" accept="image/*" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40" onchange='$("#upload-file-info").html($(this).val());'>
+                        <img id="avatar" data-bind="attr:{src: Imagesrc }" height="150" width="150" />
+                        <input type="file" accept="image/*" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="150" onchange='$("#upload-file-info").html($(this).val());'>
                     </a>
                     <h2></h2>
                     <span class='label label-info' id="upload-file-info"></span>

@@ -87,9 +87,9 @@
   <ItemGroup>
     <Compile Include="GameContesterDbContext.cs" />
     <Compile Include="Managers\UserManager.cs" />
-    <Compile Include="Migrations\201603061039488_Initial.cs" />
-    <Compile Include="Migrations\201603061039488_Initial.Designer.cs">
-      <DependentUpon>201603061039488_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201603181332226_Initial.cs" />
+    <Compile Include="Migrations\201603181332226_Initial.Designer.cs">
+      <DependentUpon>201603181332226_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repository\Repository.cs" />
@@ -117,8 +117,8 @@
     </CodeAnalysisDictionary>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201603061039488_Initial.resx">
-      <DependentUpon>201603061039488_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201603181332226_Initial.resx">
+      <DependentUpon>201603181332226_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
