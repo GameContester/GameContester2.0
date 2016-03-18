@@ -244,7 +244,6 @@
     <Content Include="Content\Images\error\404.png" />
     <Content Include="Content\Images\error\500.jpg" />
     <Content Include="Content\Images\FB.png" />
-    <Content Include="Content\Images\Logo.png" />
     <Content Include="Content\Images\pic02.jpg" />
     <Content Include="Content\Images\pic03.jpg" />
     <Content Include="Content\Images\pic04.jpg" />
@@ -255,6 +254,7 @@
     <Content Include="Content\skel.css" />
     <Content Include="Content\style-xlarge.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Images\Logo.png" />
     <Content Include="Scripts\App_Scripts\AuthModelScript.js" />
     <Content Include="Scripts\App_Scripts\AuthScript.js" />
     <Content Include="Scripts\App_Scripts\ForgotPasswordScript.js" />
