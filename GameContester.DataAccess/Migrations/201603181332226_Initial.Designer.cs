@@ -13,7 +13,7 @@ namespace GameContester.DataAccess.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201603061039488_Initial"; }
+            get { return "201603181332226_Initial"; }
         }
         
         string IMigrationMetadata.Source
