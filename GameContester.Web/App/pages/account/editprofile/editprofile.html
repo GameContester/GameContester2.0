@@ -4,16 +4,29 @@
 
     <div class="row">
         <div class="col-md-3 text-center">
+            <style>
+        ul.hr {
+            margin: 0; 
+          }
 
-           
+            ul.hr li {
+                display: inline-block; 
+                
+               list-style-type: none;
+            }
+            </style>
 
             <h2></h2>
-            <form enctype="multipart/form-data" action="#" data-bind="submit: loadpicture" method="post" id="image_form">
-
+            <form enctype="multipart/form-data" action="#" data-bind="submit: loadpicture" method="post" style="width:180px;height:180px;" id="image_form">
+                
+                
                 <div style="position:relative;">
                     <a class='btn btn-default' href='javascript:;'>
-                        <img id="avatar" data-bind="attr:{src: Imagesrc }" height="150" width="150" />
-                        <input type="file" accept="image/*" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="150" onchange='$("#upload-file-info").html($(this).val());'>
+                       
+                        <img id="avatar" data-bind="attr:{src: Imagesrc }"  style="width:180px;height:180px;" border="0"  />
+                          
+                        <input type="file" accept="image/png,image/jpg,image/jpeg,image/bmp,image/gif" style='position:absolute;top:0;left:0;height:180px;width:180px;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source"  onchange='$("#upload-file-info").html($(this).val());'>
+                        
                     </a>
                     <h2></h2>
                     <span class='label label-info' id="upload-file-info"></span>
@@ -99,8 +112,10 @@
                 </div>
                 <div class="form-group">
                     <hr />
-                    <button type="button" class="btn btn-default" id="profile_btn" data-bind="click: cancelchanges" resource="">Cancel </button>
-                    <input type="submit" id="submitButton" class="btn btn-success" value="Save changes" />
+                    <ul class="hr">
+                        <li><button type="button" class="button special" id="profile_btn" data-bind="click: cancelchanges" style="margin-bottom:40px;margin-left:40px;font-size:14px;" resource="">Cancel </button></li>
+                    <li><input type="submit" id="submitButton" class="button special"style="font-size:14px;" value="Save changes" /></li>
+                        </ul>
                 </div>
 
             </form>

@@ -32,3 +32,9 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+*.config
+*.config
+.vs/config/applicationhost.config
+GameContester.Service/bin/GameContester.Service.dll.config
+GameContester.Web/bin/GameContester.Web.dll.config
+GameContester.Web/Web.config
