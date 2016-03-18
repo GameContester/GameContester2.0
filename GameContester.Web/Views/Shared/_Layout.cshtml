@@ -13,8 +13,19 @@
                 display: inline; 
                list-style-type: none;
             }
+            .header_img{
+                display: inline-block;
+                float:left;
+                margin-left:10px;
+                margin-top:12px;
+                padding-top: 0;
+                background-size: cover;
+                background-size: cover;
+                background-position: center;
+              }
     </style>
        
+
         
               <title>@ViewBag.Title -GameContester</title>
 
@@ -34,16 +45,15 @@
     </head>
     <body class="page-header">
         <header id="header">
-            <h1 style="font-size:150%">GameContester</h1>
-
-            
-
+           <div class="header_img">
+            <img src="~/Content/Images/Logo.png"  width="320" height="47"  />
+               </div>
 
                 <div data-bind="authBinding" id="userpanel">
                     <div id="anonim">
                         <nav id="nav">
-                            <ul class="hr" id="anonimus">
-
+                            <ul class="hr" id="anonimus" style="margin-top:0px">
+                           
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#login" class="button special">Sign In</a></li>
                                 <li><a href="#register" class="button special">Sign Up</a></li>
