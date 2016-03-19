@@ -24,8 +24,8 @@
         }, this);
 
         self.goToProfile = function () {
-            location.href = "#profile";
-            window.location = "http://localhost:51949/#profile";
+            location.href = "#profile?my";
+            window.location = "http://localhost:51949/#profile?my";
         }
 
         self.loadpicture = function () {
@@ -63,6 +63,7 @@
                     var image_url = "http://localhost:51952/api/profilepicture/";
                     var userId = self.Id();
                     self.Imagesrc(image_url + userId + '?' + Math.random());
+                    self.goToProfile();
                    
                 },
                 error: function (data) {
