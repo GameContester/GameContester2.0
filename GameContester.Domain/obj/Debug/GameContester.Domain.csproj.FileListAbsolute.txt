@@ -237,3 +237,4 @@ D:\dev\git\GameContester2.0\GameContester.Domain\bin\Debug\System.Web.Http.xml
 D:\dev\git\GameContester2.0\GameContester.Domain\bin\Debug\System.Web.Http.Owin.xml
 D:\dev\git\GameContester2.0\GameContester.Domain\obj\Debug\GameContester.Domain.dll
 D:\dev\git\GameContester2.0\GameContester.Domain\obj\Debug\GameContester.Domain.pdb
+D:\dev\git\GameContester2.0\GameContester.Domain\obj\Debug\GameContester.Domain.csprojResolveAssemblyReference.cache
